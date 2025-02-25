@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <div style={{marginTop: '4rem'}}>
+      <div style={{marginTop: '4rem', height: '100%'}}>
           <ScrollToTop/>
           <Outlet/>
         </div>
