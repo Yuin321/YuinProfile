@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const Home = React.lazy(() => import('./pages/Home.jsx'));
 const ErrorPage = React.lazy(() => import('./pages/ErrorPage.jsx'));
 const About = React.lazy(() => import('./pages/About.jsx'));
+const Portfolio = React.lazy(() => import('./pages/Portfolio.jsx'));
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<div>Loading...</div>}>
             <About />
+          </Suspense>
+        ),
+      },
+      {
+        path: 'portfolio',
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Portfolio />
           </Suspense>
         ),
       },

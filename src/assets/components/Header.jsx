@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Header(){
     const menuRef = useRef(null);
-    const pages = ['Home', 'About', 'Portfolio', 'Skills', 'Resume'];
+    const pages = ['Home', 'About', 'Portfolio', 'Resume'];
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen(!isOpen);
     const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
