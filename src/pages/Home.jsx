@@ -20,7 +20,9 @@ function Home(){
                 </div>
                 <div style={{display: 'flex', alignItems:'center'}}>
                     <img src="/images/curly-down-arrow.svg" alt="purple arrow" style={{marginRight:'1rem'}}/>
-                    <button className="contact-button">Contact Me</button>
+                    <button className='contact-button'>
+                        <a href="mailto:yuin321@gmail.com" className="email-link">Contact Me</a>
+                    </button>
                 </div>
             </div>
             <img src="/images/yuin-portrait.svg" alt="Yuin's portrait" className="image"/>

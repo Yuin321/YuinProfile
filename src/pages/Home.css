@@ -19,6 +19,6 @@
 
 .homepage{
     background-color: #2E2E2E;
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 7rem);
     display: flex;
 }
