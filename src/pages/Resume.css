@@ -1,0 +1,13 @@
+.resume-page{
+    background-color: #2E2E2E;
+    padding: 2rem 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cyan-text{
+    color: #00FFFF;
+}

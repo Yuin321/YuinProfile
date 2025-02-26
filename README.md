@@ -23,7 +23,7 @@ This is my personal portfolio, showcasing my work, skills, and projects. Built w
 ## 📸 Screenshots  
 | **Homepage** | **Project Section** |
 |-------------|----------------|
-| ![Homepage](https://github.com/Yuin321/YuinProfile/blob/db14b9079fd8427374b305c4ea442a16056248be/screenshots/portfolio-screenshot.png) | ![Projects](https://your-image-link.com/projects.png) |
+| ![Homepage](https://github.com/Yuin321/YuinProfile/blob/db14b9079fd8427374b305c4ea442a16056248be/screenshots/portfolio-screenshot.png) | ![About](https://github.com/Yuin321/YuinProfile/blob/db14b9079fd8427374b305c4ea442a16056248be/screenshots/localhost_5173_about.png) |
 
 ---
 

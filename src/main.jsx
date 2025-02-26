@@ -8,6 +8,7 @@ const Home = React.lazy(() => import('./pages/Home.jsx'));
 const ErrorPage = React.lazy(() => import('./pages/ErrorPage.jsx'));
 const About = React.lazy(() => import('./pages/About.jsx'));
 const Portfolio = React.lazy(() => import('./pages/Portfolio.jsx'));
+const Resume = React.lazy(() => import('./pages/Resume.jsx'));
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<div>Loading...</div>}>
             <Portfolio />
+          </Suspense>
+        ),
+      },
+      {
+        path: 'resume',
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Resume />
           </Suspense>
         ),
       },
