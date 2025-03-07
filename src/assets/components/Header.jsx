@@ -10,6 +10,7 @@ function Header(){
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen(!isOpen);
     const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+    
     // Close menu when clicking outside
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -26,6 +27,7 @@ function Header(){
 
         return () => document.removeEventListener("mousedown", handleClickOutside);
     }, [isOpen]);
+    
     return(
         <div className='header'>
             <img src={logo} alt='logo with light text'/>

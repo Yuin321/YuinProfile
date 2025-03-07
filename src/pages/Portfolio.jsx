@@ -105,9 +105,9 @@ function Portfolio(){
                                 : project.description}
                             </p>
                             <a
-                                href="javascript:void(0);"
-                                className="read-more"
-                                onClick={() => showPopup(project)}
+                                href="#" 
+                                className="read-more" 
+                                onClick={(e) => { e.preventDefault(); showPopup(project); }}
                             >
                                 {project.description.length > 50 ? 'Read more...' : ''}
                             </a>
@@ -147,9 +147,9 @@ function Portfolio(){
                                 : project.description}
                             </p>
                             <a
-                                href="javascript:void(0);"
-                                className="read-more"
-                                onClick={() => showPopup(project)}
+                                href="#" 
+                                className="read-more" 
+                                onClick={(e) => { e.preventDefault(); showPopup(project); }}
                             >
                                 {project.description.length > 50 ? 'Read more...' : ''}
                             </a>

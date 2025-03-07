@@ -25,7 +25,7 @@ function Home(){
                     </button>
                 </div>
             </div>
-            <img src="/images/yuin-portrait.svg" alt="Yuin's portrait" className="image"/>
+            <img src="/images/yuin-portrait.svg" alt="Yuin's portrait" className="large-image"/>
         </div>
     )
 }
