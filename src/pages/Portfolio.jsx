@@ -20,7 +20,15 @@ function Portfolio(){
             links: {
               figma: "https://www.figma.com/design/H5X5NqUe9hBVsJ5Bx2zJmK/Yesterday-Stories?node-id=0-1&t=VnG148VuRWyea42c-1",
             },
-          },     
+          },
+          {
+            title: "Dinner Ledger",
+            image: "/images/dinner_ledger.png",
+            description: "A tiny dinner ledger app I built to keep shared meal expenses between roommates organised and stress-free.",
+            links: {
+              github: "https://github.com/Yuin321/unit-2-dinner-ledger",
+            },
+          },      
     ];
 
     const workProjects = [
